@@ -1,0 +1,92 @@
+
+body {      /* The Defaults */
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  margin: 15px;
+  background-image: url(birchy.png);
+}
+
+
+/* Nav Stuff */
+nav {
+  background-color: #4fced3;
+  padding: 2rem;
+  margin: 0;
+}
+nav a {
+  color: rgb(43, 43, 43);
+  text-decoration: none;
+  padding: 3rem;
+}
+nav a:hover {
+  background-color: #3a999c;
+  border-radius: 1rem;
+}
+
+/* Body Stuff */
+
+body p {
+  margin-bottom: 0;
+  text-indent: 1rem;
+}
+img.me{
+  padding: 0;
+  margin: 0.5rem 10rem 0.5rem 0.5rem;
+  float: right;
+  border: 2px solid #0F5599;
+}
+img[src="name.png"] {
+  border-bottom: solid 5px black;
+  border-radius: 5px;
+}
+body h2 {
+  margin-bottom: 0.3rem;
+  margin-top: 1.3rem;
+}
+table {
+  border-style: solid;
+  border-color: black;
+  background-color: #fdfdfd;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+  width: 1000px;
+  text-align: center;
+}
+table th, td, td.free, td.se, td.ost, td.cn, td.web, td.church, td.work, td.wake {
+  border: solid 1px black;
+}
+td, th {
+  background-color: lightcyan;
+}
+td.free {
+  background-color: #88ff92;
+}
+td.se {
+  background-color: rgb(253, 135, 135);
+}
+td.ost {
+  background-color: rgb(196, 125, 196);
+}
+td.cn {
+  background-color: rgb(164, 164, 255);
+}
+td.web {
+  background-color: orange;
+}
+td.church {
+  background-color: yellow;
+}
+td.work {
+  background-color: gray;
+}
+td.wake {
+  background-color: rgb(110, 110, 141);
+}
+div {
+  background-color: rgb(238, 192, 133);
+  padding: 4rem;
+  margin: 10rem;
+  box-shadow: 1px 3px 3px black, 1px 3px 3px black;
+}
